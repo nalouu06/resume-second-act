@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+    display: flex;
+    background-image: url(images/landscape-digital-art-nature-animated-wallpaper.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    height: 100px;
+    background: linear-gradient(90deg, rgb(0, 247, 255), rgb(14, 14, 14));
+}
+
+.image{
+    width: 170px;
+    border-radius: 50%;
+    transform: translate(570px, 80px);
+}
+
+h1{
+    transform: translate(520px, 100px);
+    color: rgb(207, 207, 207);
+    text-align: centers;
+}
+
+.logo{
+	color: var(--text-color);
+	font-size: 35px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+span{
+	color: var(--main-color);
+	transition: all .45s ease;
+}
+span:hover{
+	text-shadow: 0 0 5px var(--main-color), 
+	0 0 30px var(--main-color);
+}
+.navlist{
+	display: flex;
+}
+.navlist a{
+	color: white;
+	font-size: 17px;
+	font-weight: 500;
+	margin: 0 25px;
+	transition: all .45s ease;
+    text-decoration: none;
+    list-style: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.navlist a:hover{
+	color: var(--main-color);
+}
+.navlist a.active{
+	color: var(--main-color);
+}
+.navlist li a {
+    color: white;
+    transform: translate(180px, 40px);
+    list-style: none;
+}
+
+.navlist{
+    transform: translate(1060px, 20px);
+}
+
+#menu-icon{
+	font-size: 35px;
+	color: var(--text-color);
+	z-index: 10001;
+	cursor: pointer;
+	margin-left: 25px;
+	display: none;
+}
+
+.navlist li{
+   list-style: none;
+}
+
+.references{
+    color: #cccccc;
+    transform: translate(790px, 130px);
+    font-size: 50px;
+}
+
+.upper{
+    transform: translate(260px);
+}
+
+.container{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transform: translate(400px, 330px);
+    width: 950px;
+    height: 500px;
+    padding-top: 400px;
+}
+
+.name{
+    transform: translate(30px, -370px);
+    font-family: 'popppins', sans-serif;
+}
+
+.discription{
+    transform: translate(30px, -350px);
+}
+
+.Information{
+    transform: translate(30px, -310px);
+    font-family: 'poppins', sans-serif;
+}
+
+.bafo{
+    transform: translate(30px, -300px);
+    line-height: 40px;
+    font-family: 'poppins', sans-serif;
+}
+
+span{
+    font-family: 'poppins', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.second-container{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transform: translate(500px, 399px);
+    width: 700px;
+    height: 500px;
+    padding-top: 400px;
+    padding-bottom: 400px;
+    line-height: 80px;
+    border-radius: 5px;
+}
+
+.proks{
+    color: black;
+    transform: translate(485px, 400px);
+    font-family: sans-serif;
+}
+
+ul li a{
+    transform: translate(250px, -420px);
+    text-decoration: none;
+    font-size: 100px;
+    width: 300px;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul p{
+    transform: translate(270px, -380px);
+}
+
+.fa-battery-half{
+    color: greenyellow;
+}
+
+.percent{
+    transform: translate(565px, -360px);
+}
+
+.fa-battery-quarter{
+    color: rgb(253, 72, 0);
+}
+
+.second-percent{
+    transform: translate(565px, -255px);
+}
+
+.fa-battery-three-quarters{
+    color: rgb(113, 189, 0);
+}
+
+.third-percent{
+    transform: translate(565px, -150px);
+}
+
+.fourth-percent{
+    transform: translate(565px, -45px);
+}
+
+.fifth-perecent{
+    transform: translate(565px, 55px);
+}
+
+.just-contain{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transform: translate(500px, 429px);
+    width: 700px;
+    height: 850px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    line-height: 50px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.education{
+    color: black;
+    transform: translate(485px, 400px);
+    font-family: sans-serif;
+}
+
+.elem{
+    transform: translate(0px, -99px);
+}
+
+.highschool{
+    transform: translate(0px, -49px);
+}
